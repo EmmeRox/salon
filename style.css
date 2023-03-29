@@ -1,0 +1,62 @@
+:root {
+  --head-font: "Cinzel", serif;
+  --sub-font: "Poppins", sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.hero {
+  background-color: #655c5c;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+    url("hairpink.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 90px;
+  margin: 0 auto;
+  max-width: 800px;
+  height: 400px;
+  text-align: center;
+  transform: rotate(10deg);
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px gray;
+  position: relative;
+  top: -75px;
+  left: -10px;
+}
+
+.maintitle {
+  margin-top: 5em;
+  transform: rotate(-10deg);
+  padding-left: 3rem;
+  text-align: left;
+  color: whitesmoke;
+}
+
+h1 {
+  font-family: var(--head-font);
+  text-transform: uppercase;
+  font-size: 40px;
+  padding-bottom: 0;
+  margin: 0;
+  letter-spacing: 0.6rem;
+}
+
+h3 {
+  font-family: var(--head-font);
+  font-size: 7px;
+  letter-spacing: 0.3rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Below allows for stacking
+position: absolute;
+  z-index: -1;*/
