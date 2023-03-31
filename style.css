@@ -77,13 +77,14 @@ h3 {
 }
 
 article {
-  position: absolute;
+  position: relative;
   z-index: 1;
+  max-width: 150px;
   background-color: black;
   color: whitesmoke;
-  top: 25rem;
-  left: 6rem;
-  padding: 1.2rem 0.7rem;
+  top: -8rem;
+  left: 3rem;
+  padding:2rem 1rem;
   font-family: var(--sub-font);
   font-size: 10px;
   letter-spacing: 0.08rem;
@@ -118,7 +119,9 @@ article {
 
 .summary {
   display: flex;
-  padding: 6rem 7em 2rem 7rem;
+  position: relative;
+  top: -4rem;
+  padding: 0 7em 2rem 7rem;
   text-align: center;
 }
 
@@ -131,6 +134,7 @@ article {
   background-color: rgb(168, 168, 168);
   display: flex;
   justify-content: space-around;
+  border-radius: 5px;
 }
 
 .momentum p {
@@ -188,3 +192,52 @@ p.name {
 /* Below allows for stacking
 position: absolute;
   z-index: -1;*/
+
+  .minihero {
+    background-color: #655c5c;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)),
+      url("morehair.jpg");
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    max-width: 1000px;
+    height: 180px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 2px 2px 2px gray;
+  }
+
+  .coloroffer {
+    text-align: left;
+  }
+
+  .coloroffer p {
+      padding: 0 3rem;
+      text-transform: uppercase;
+      font-size: 12px;
+  }
+  .coloroffer h4 {
+    padding: 0 3rem;
+    margin: 0.3rem 0;
+    text-transform: uppercase;
+    font-family: var(--head-font);
+
+  }
+
+  .servicesoffer {
+    margin: 1rem 3rem ;
+    padding: 0.3rem 1.3rem;
+    font-weight: 700;
+    font-size: 9px;
+    border: none;
+    font-family: var(--sub-font);
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
+
+  .icon {
+    font-size: 30px;
+  }
